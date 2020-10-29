@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.0\bin\i386-win32\fpc.exe" Date="1231855826"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq &quot;-FiE:\Matriz Work 1\lib\i386-win32&quot; &quot;-FuE:\Matriz Work 1\&quot; &quot;-FUE:\Matriz Work 1\lib\i386-win32\&quot; TrabalhoComputacional2.lpr"/>
+</CONFIG>

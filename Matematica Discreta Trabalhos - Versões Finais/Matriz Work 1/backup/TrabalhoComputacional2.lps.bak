@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="177"/>
+        <CursorPos X="36" Y="298"/>
+        <UsageCount Value="39"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="174" Column="22" TopLine="160"/>
+      </Position1>
+      <Position2>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="176" Column="53" TopLine="160"/>
+      </Position2>
+      <Position3>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="216" Column="35" TopLine="196"/>
+      </Position3>
+      <Position4>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="226" Column="22" TopLine="217"/>
+      </Position4>
+      <Position5>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="203" Column="23" TopLine="188"/>
+      </Position5>
+      <Position6>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="205" Column="23" TopLine="189"/>
+      </Position6>
+      <Position7>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="207" Column="39" TopLine="184"/>
+      </Position7>
+      <Position8>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="292" Column="18" TopLine="270"/>
+      </Position8>
+      <Position9>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="30" Column="10" TopLine="22"/>
+      </Position9>
+      <Position10>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="311" Column="25" TopLine="286"/>
+      </Position10>
+      <Position11>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="31" Column="55" TopLine="8"/>
+      </Position11>
+      <Position12>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="309" Column="32" TopLine="296"/>
+      </Position12>
+      <Position13>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="311" Column="43" TopLine="296"/>
+      </Position13>
+      <Position14>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="312" Column="18" TopLine="299"/>
+      </Position14>
+      <Position15>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="311" Column="44" TopLine="299"/>
+      </Position15>
+      <Position16>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="316" Column="18" TopLine="305"/>
+      </Position16>
+      <Position17>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="317" Column="16" TopLine="305"/>
+      </Position17>
+      <Position18>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="315" Column="39" TopLine="304"/>
+      </Position18>
+      <Position19>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="685" Column="32" TopLine="668"/>
+      </Position19>
+      <Position20>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="11" Column="34"/>
+      </Position20>
+      <Position21>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="877" Column="36" TopLine="857"/>
+      </Position21>
+      <Position22>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="122" Column="10" TopLine="113"/>
+      </Position22>
+      <Position23>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="925" Column="10" TopLine="904"/>
+      </Position23>
+      <Position24>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="924" Column="20" TopLine="905"/>
+      </Position24>
+      <Position25>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="114" Column="17" TopLine="99"/>
+      </Position25>
+      <Position26>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="116" Column="19" TopLine="101"/>
+      </Position26>
+      <Position27>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="925" Column="28" TopLine="907"/>
+      </Position27>
+      <Position28>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="927" Column="23" TopLine="909"/>
+      </Position28>
+      <Position29>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="6"/>
+      </Position29>
+      <Position30>
+        <Filename Value="TrabalhoComputacional2.lpr"/>
+        <Caret Line="928" Column="27" TopLine="911"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

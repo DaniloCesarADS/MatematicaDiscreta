@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="TesteConditionSum.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="21"/>
+        <CursorPos X="12" Y="32"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="10" HistoryIndex="9">
+      <Position1>
+        <Filename Value="TesteConditionSum.pas"/>
+        <Caret Line="40" Column="16" TopLine="26"/>
+      </Position1>
+      <Position2>
+        <Filename Value="TesteConditionSum.pas"/>
+        <Caret Line="39" Column="35" TopLine="26"/>
+      </Position2>
+      <Position3>
+        <Filename Value="TesteConditionSum.pas"/>
+        <Caret Line="42" Column="10" TopLine="20"/>
+      </Position3>
+      <Position4>
+        <Filename Value="TesteConditionSum.pas"/>
+        <Caret Line="44" Column="19" TopLine="29"/>
+      </Position4>
+      <Position5>
+        <Filename Value="TesteConditionSum.pas"/>
+        <Caret Line="65" Column="7" TopLine="44"/>
+      </Position5>
+      <Position6>
+        <Filename Value="TesteConditionSum.pas"/>
+        <Caret Line="69" Column="7" TopLine="45"/>
+      </Position6>
+      <Position7>
+        <Filename Value="TesteConditionSum.pas"/>
+        <Caret Line="63" Column="34" TopLine="48"/>
+      </Position7>
+      <Position8>
+        <Filename Value="TesteConditionSum.pas"/>
+        <Caret Line="67" Column="13" TopLine="48"/>
+      </Position8>
+      <Position9>
+        <Filename Value="TesteConditionSum.pas"/>
+        <Caret Line="66" Column="11" TopLine="43"/>
+      </Position9>
+      <Position10>
+        <Filename Value="TesteConditionSum.pas"/>
+        <Caret Line="65" Column="7" TopLine="43"/>
+      </Position10>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

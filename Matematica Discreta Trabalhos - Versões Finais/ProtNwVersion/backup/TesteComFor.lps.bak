@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="TesteComFor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="260"/>
+        <CursorPos X="38" Y="218"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="TesteComFor.pas"/>
+        <Caret Line="305" Column="73" TopLine="274"/>
+      </Position1>
+      <Position2>
+        <Filename Value="TesteComFor.pas"/>
+        <Caret Line="315" Column="38" TopLine="297"/>
+      </Position2>
+      <Position3>
+        <Filename Value="TesteComFor.pas"/>
+        <Caret Line="312" Column="51" TopLine="296"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

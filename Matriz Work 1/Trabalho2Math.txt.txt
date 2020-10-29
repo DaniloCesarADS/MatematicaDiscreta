@@ -1,0 +1,654 @@
+program project1;
+uses crt;
+
+var
+
+  // mx = matriz x, omx, ordem matriz x
+  ma  : array[1..3, 1..3] of integer;
+  oma : array[1..2] of char;
+  mb  : array[1..3, 1..4] of integer;
+  omb : array[1..2] of char;
+  mc  : array[1..3, 1..1] of integer;
+  omc : array[1..2] of char;
+  md  : array[1..1, 1..3] of integer;
+  omd : array[1..2] of char;
+  me  : array[1..3, 1..4] of integer;
+  ome : array[1..2] of char;
+  mf  : array[1..4, 1..2] of integer;
+  omf : array[1..2] of char;
+  mg  : array[1..3, 1..3] of integer;
+  omg : array[1..2] of char;
+  mop1  : array[1..4, 1..4] of integer;
+  mop2  : array[1..4, 1..4] of integer;
+  opma  : array[1..4, 1..4] of integer;
+  oi1, oj1 : integer;
+  i, j   : integer;
+  opcao  : integer;
+  matriz1 : char;
+  matriz2 : char;
+  opcaomatriz : char;
+
+begin
+
+  oma[1] := '3';
+  oma[2] := '3';
+  ma[1,1] :=   5;
+  ma[1,2] :=   2;
+  ma[1,3] :=   1;
+  ma[2,1] :=  15;
+  ma[2,2] :=   7;
+  ma[2,3] :=   7;
+  ma[3,1] :=  25;
+  ma[3,2] :=   7;
+  ma[3,3] :=   5;
+
+  omb[1] := '3';
+  omb[2] := '4';
+  mb[1,1] :=  -5;
+  mb[1,2] :=   2;
+  mb[1,3] :=   1;
+  mb[1,4] :=   1;
+  mb[2,1] :=  15;
+  mb[2,2] :=  -7;
+  mb[2,3] :=   7;
+  mb[2,4] :=  -1;
+  mb[3,1] :=  25;
+  mb[3,2] :=   7;
+  mb[3,3] :=   5;
+  mb[3,4] :=   3;
+
+  omb[1] := '3';
+  omb[2] := '1';
+  mc[1,1] :=  -2;
+  mc[2,1] :=   1;
+  mc[3,1] :=   4;
+
+  omb[1] := '1';
+  omb[2] := '3';
+  md[1,1] :=  -2;
+  md[1,2] :=   0;
+  md[1,3] :=   5;
+
+  omb[1] := '3';
+  omb[2] := '4';
+  me[1,1] :=  -5;
+  me[1,2] :=   2;
+  me[1,3] :=   1;
+  me[1,4] :=   1;
+  me[2,1] :=  15;
+  me[2,2] :=  -7;
+  me[2,3] :=   7;
+  me[2,4] :=  -1;
+  me[3,1] :=  25;
+  me[3,2] :=   7;
+  me[3,3] :=   5;
+  me[3,4] :=   3;
+
+  omb[1] := '4';
+  omb[2] := '2';
+  mf[1,1] :=  -2;
+  mf[1,2] :=   0;
+  mf[2,1] :=   1;
+  mf[2,2] :=  -1;
+  mf[3,1] :=   5;
+  mf[3,2] :=  -4;
+  mf[4,1] :=  12;
+  mf[4,2] :=   3;
+
+  omb[1] := '3';
+  omb[2] := '3';
+  mg[1,1] :=  -2;
+  mg[1,2] :=   0;
+  mg[1,3] :=   2;
+  mg[2,1] :=   1;
+  mg[2,2] :=  -1;
+  mg[2,3] :=   1;
+  mg[3,1] :=   5;
+  mg[3,2] :=  -4;
+  mg[3,3] :=   0;
+
+  //Mostra matriz A
+  writeln('Matriz A:');
+  for i := 1 to 3 do
+  begin
+    for j := 1 to 3 do
+    begin
+      write(ma[i,j]:2, ' ');
+    end;
+    writeln('');
+  end;
+  writeln('');
+  readkey;
+
+  //Mostra matriz B
+  writeln('Matriz B:');
+  for i := 1 to 3 do
+  begin
+    for j := 1 to 4 do
+    begin
+      write(mb[i,j]:2, ' ');
+    end;
+    writeln('');
+  end;
+  writeln('');
+  readkey;
+
+  //Mostra matriz C
+  writeln('Matriz C:');
+  for i := 1 to 3 do
+  begin
+    for j := 1 to 1 do
+    begin
+      write(mc[i,j]:2, ' ');
+    end;
+    writeln('');
+  end;
+  writeln('');
+  readkey;
+
+  //Mostra matriz D
+  writeln('Matriz D:');
+  for i := 1 to 1 do
+  begin
+    for j := 1 to 3 do
+    begin
+      write(md[i,j]:2, ' ');
+    end;
+    writeln('');
+  end;
+  writeln('');
+  readkey;
+
+  //Mostra matriz E
+  writeln('Matriz E:');
+  for i := 1 to 3 do
+  begin
+    for j := 1 to 4 do
+    begin
+      write(me[i,j]:2, ' ');
+    end;
+    writeln('');
+  end;
+  writeln('');
+  readkey;
+
+  //Mostra matriz F
+  writeln('Matriz F:');
+  for i := 1 to 4 do
+  begin
+    for j := 1 to 2 do
+    begin
+      write(mf[i,j]:2, ' ');
+    end;
+    writeln('');
+  end;
+  writeln('');
+  readkey;
+
+  //Mostra matriz G
+  writeln('Matriz G:');
+  for i := 1 to 3 do
+  begin
+    for j := 1 to 3 do
+    begin
+      write(mg[i,j]:2, ' ');
+    end;
+    writeln('');
+  end;
+  writeln('');
+  readkey;
+
+  while (opcao <> 5) do
+   begin
+
+     writeln('Menu de Operacoes:');
+     writeln('1 - SOMA');
+     writeln('2 - SUBTRACAO');
+     writeln('3 - PRODUTO ESCALAR');
+     writeln('4 - PRODUTO MATRIZES');
+     writeln('5 - SAIR');
+
+     writeln('Digite o numero correspondente a operacao:');
+     readln(opcao);
+
+
+     case opcao of
+     1:
+     begin
+     writeln('Digite a letra da matriz 1: (A, B, C, D, E, F, G)');
+     readln(matriz1);
+     matriz1 := upcase(matriz1);
+
+     writeln('Digite a letra da matriz 2: (A, B, C, D, E, F, G)');
+     readln(matriz2);
+     matriz2 := upcase(matriz2);
+
+     case matriz1 of
+     'A' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 3 do
+           begin
+           mop1[i,j] := ma[i,j];
+           oi1 := 3;
+           oj1 := 3;
+
+           end;
+       end;
+
+     'B' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 4 do
+           begin
+           mop1[i,j] := mb[i,j];
+           oi1 := 3;
+           oj1 := 4;
+
+           end;
+       end;
+
+     'C' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 1 do
+           begin
+           mop1[i,j] := mc[i,j];
+           oi1 := 3;
+           oj1 := 1;
+
+           end;
+       end;
+
+     'D' :
+      begin
+       for i := 1 to 1 do
+           for j := 1 to 3 do
+           begin
+           mop1[i,j] := md[i,j];
+           oi1 := 1;
+           oj1 := 3;
+
+           end;
+       end;
+
+     'E' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 4 do
+           begin
+           mop1[i,j] := me[i,j];
+           oi1 := 3;
+           oj1 := 4;
+
+           end;
+       end;
+
+     'F' :
+      begin
+       for i := 1 to 4 do
+           for j := 1 to 2 do
+           begin
+           mop1[i,j] := mf[i,j];
+           oi1 := 4;
+           oj1 := 2;
+
+           end;
+       end;
+
+     'G' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 3 do
+           begin
+           mop1[i,j] := mg[i,j];
+           oi1 := 3;
+           oj1 := 3;
+
+           end;
+       end;
+
+
+
+     end;
+
+     case matriz2 of
+     'A' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 3 do
+           begin
+           mop2[i,j] := ma[i,j];
+           oi1 := 3;
+           oj1 := 3;
+
+           end;
+       end;
+
+     'B' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 4 do
+           begin
+           mop2[i,j] := mb[i,j];
+           oi1 := 3;
+           oj1 := 4;
+
+           end;
+       end;
+
+     'C' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 1 do
+           begin
+           mop2[i,j] := mc[i,j];
+           oi1 := 3;
+           oj1 := 1;
+
+           end;
+       end;
+
+     'D' :
+      begin
+       for i := 1 to 1 do
+           for j := 1 to 3 do
+           begin
+           mop2[i,j] := md[i,j];
+           oi1 := 1;
+           oj1 := 3;
+
+           end;
+       end;
+
+     'E' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 4 do
+           begin
+           mop2[i,j] := me[i,j];
+           oi1 := 3;
+           oj1 := 4;
+
+           end;
+       end;
+
+     'F' :
+      begin
+       for i := 1 to 4 do
+           for j := 1 to 2 do
+           begin
+           mop2[i,j] := mf[i,j];
+           oi1 := 4;
+           oj1 := 2;
+
+           end;
+       end;
+
+     'G' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 3 do
+           begin
+           mop2[i,j] := mg[i,j];
+           oi1 := 3;
+           oj1 := 3;
+
+           end;
+       end;
+
+     end;
+
+     // Soma as Matrizes selecionadas
+     for i := 1 to oi1 do
+         for j := 1 to oj1 do
+             opma[i,j] := mop1[i,j] + mop2[i,j];
+
+             //Mostra matriz Resultante
+             writeln('Matriz resultante:');
+             for i := 1 to 3 do
+              begin
+               for j := 1 to 3 do
+                begin
+                write(opma[i,j]:2, ' ');
+                end;
+               writeln('');
+              end;
+              writeln('');
+              readkey;
+
+     end;
+     2:
+     begin
+     writeln('Digite a letra da matriz 1: (A, B, C, D, E, F, G)');
+     readln(matriz1);
+     matriz1 := upcase(matriz1);
+
+     writeln('Digite a letra da matriz 2: (A, B, C, D, E, F, G)');
+     readln(matriz2);
+     matriz2 := upcase(matriz2);
+
+          case matriz1 of
+     'A' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 3 do
+           begin
+           mop1[i,j] := ma[i,j];
+           oi1 := 3;
+           oj1 := 3;
+
+           end;
+       end;
+
+     'B' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 4 do
+           begin
+           mop1[i,j] := mb[i,j];
+           oi1 := 3;
+           oj1 := 4;
+
+           end;
+       end;
+
+     'C' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 1 do
+           begin
+           mop1[i,j] := mc[i,j];
+           oi1 := 3;
+           oj1 := 1;
+
+           end;
+       end;
+
+     'D' :
+      begin
+       for i := 1 to 1 do
+           for j := 1 to 3 do
+           begin
+           mop1[i,j] := md[i,j];
+           oi1 := 1;
+           oj1 := 3;
+
+           end;
+       end;
+
+     'E' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 4 do
+           begin
+           mop1[i,j] := me[i,j];
+           oi1 := 3;
+           oj1 := 4;
+
+           end;
+       end;
+
+     'F' :
+      begin
+       for i := 1 to 4 do
+           for j := 1 to 2 do
+           begin
+           mop1[i,j] := mf[i,j];
+           oi1 := 4;
+           oj1 := 2;
+
+           end;
+       end;
+
+     'G' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 3 do
+           begin
+           mop1[i,j] := mg[i,j];
+           oi1 := 3;
+           oj1 := 3;
+
+           end;
+       end;
+
+
+
+     end;
+
+     case matriz2 of
+     'A' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 3 do
+           begin
+           mop2[i,j] := ma[i,j];
+           oi1 := 3;
+           oj1 := 3;
+
+           end;
+       end;
+
+     'B' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 4 do
+           begin
+           mop2[i,j] := mb[i,j];
+           oi1 := 3;
+           oj1 := 4;
+
+           end;
+       end;
+
+     'C' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 1 do
+           begin
+           mop2[i,j] := mc[i,j];
+           oi1 := 3;
+           oj1 := 1;
+
+           end;
+       end;
+
+     'D' :
+      begin
+       for i := 1 to 1 do
+           for j := 1 to 3 do
+           begin
+           mop2[i,j] := md[i,j];
+           oi1 := 1;
+           oj1 := 3;
+
+           end;
+       end;
+
+     'E' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 4 do
+           begin
+           mop2[i,j] := me[i,j];
+           oi1 := 3;
+           oj1 := 4;
+
+           end;
+       end;
+
+     'F' :
+      begin
+       for i := 1 to 4 do
+           for j := 1 to 2 do
+           begin
+           mop2[i,j] := mf[i,j];
+           oi1 := 4;
+           oj1 := 2;
+
+           end;
+       end;
+
+     'G' :
+      begin
+       for i := 1 to 3 do
+           for j := 1 to 3 do
+           begin
+           mop2[i,j] := mg[i,j];
+           oi1 := 3;
+           oj1 := 3;
+
+           end;
+       end;
+
+     end;
+
+     // Soma as Matrizes selecionadas
+     for i := 1 to oi1 do
+         for j := 1 to oj1 do
+             opma[i,j] := mop1[i,j] - mop2[i,j];
+
+             //Mostra matriz Resultante
+             writeln('Matriz resultante:');
+             for i := 1 to 3 do
+              begin
+               for j := 1 to 3 do
+                begin
+                write(opma[i,j]:2, ' ');
+                end;
+               writeln('');
+              end;
+              writeln('');
+              readkey;
+     end;
+
+     3:
+     begin
+     writeln('Digite a letra da matriz 1: (A, B, C, D, E, F, G)');
+     readln(matriz1);
+     matriz1 := upcase(matriz1);
+
+     writeln('Digite a letra da matriz 2: (A, B, C, D, E, F, G)');
+     readln(matriz2);
+     matriz2 := upcase(matriz2);
+     end;
+
+     4:
+     begin
+     writeln('Digite a letra da matriz 1: (A, B, C, D, E, F, G)');
+     readln(matriz1);
+     matriz1 := upcase(matriz1);
+
+     writeln('Digite a letra da matriz 2: (A, B, C, D, E, F, G)');
+     readln(matriz2);
+     matriz2 := upcase(matriz2);
+     end;
+
+     end;
+
+
+   end;
+
+   readkey;
+end.

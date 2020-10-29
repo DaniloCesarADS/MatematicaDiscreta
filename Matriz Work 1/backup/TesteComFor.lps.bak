@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="TesteComFor.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="279"/>
+        <CursorPos X="5" Y="302"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="TesteComFor.lpr"/>
+        <Caret Line="299" Column="26" TopLine="191"/>
+      </Position1>
+      <Position2>
+        <Filename Value="TesteComFor.lpr"/>
+        <Caret Line="300" Column="3" TopLine="279"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

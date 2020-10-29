@@ -1,0 +1,21 @@
+program FunctionWork1;
+
+uses crt;
+//math
+//system
+var  n   :       integer;
+
+//Funções
+//1g
+//2g
+//Exp
+//Log
+//Sqrt
+//Inv
+//Sen
+//Cos
+//Tg
+
+begin
+end.
+
